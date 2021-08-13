@@ -1,0 +1,349 @@
+/* initialization */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+/* break point */
+/* Extra small devices */
+@media (max-width: 576px) {
+  /* ... */
+}
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* ... */
+}
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* ... */
+}
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* ... */
+}
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+  /* ... */
+}
+/* head section */
+#head {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 14% 3% 14%;
+  position: sticky;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+#head nav {
+  width: 30%;
+  height: 17%;
+  margin: 1% 10%;
+}
+
+#head nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+#head nav ul li {
+  width: 70px;
+  margin: 0 10px;
+  list-style: none;
+}
+a {
+  color: rgb(138, 135, 135);
+}
+a:hover {
+  color: #00b39b;
+}
+/* main section */
+/* experience part */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 14% 3% 14%;
+}
+
+.experience h1 {
+  margin: 2% 10%;
+  color: #00b39b;
+  font-size: 150%;
+}
+.experience div {
+  display: flex;
+  justify-content: space-between;
+}
+.experience p {
+  width: 50%;
+  margin: 2%;
+}
+/* services part */
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 14% 3% 14%;
+}
+.services div {
+  border-radius: 10px;
+  padding: 7px 20px;
+  height: 250px;
+  width: 90%;
+  margin: 1%;
+}
+.for-patients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #00ccb1;
+  color: white;
+}
+.for-doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #3d83df;
+  color: white;
+}
+.for-clinics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #1b2734;
+  color: white;
+}
+.services div select {
+  /* border: 0px transparent;
+  border-color: transparent transparent transparent; */
+  background-color: transparent;
+  color: white;
+  border: transparent;
+}
+.section-inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 14% 3% 14%;
+}
+
+.section-inner h3 {
+  width: 30%;
+  color: #00b39b;
+  font-size: 150%;
+  margin: 0% 5%;
+}
+.section-inner div {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  fill: rgb(173, 173, 173);
+  line-height: 70%;
+}
+
+.section-inner div svg {
+  width: 25%;
+  height: 25%;
+  padding: 0% 2%;
+}
+.section-inner div img {
+  height: 50px;
+  width: 67px;
+}
+/* section stats */
+.stats {
+  /* justify-content: space-between; */
+  /* background-image: url(./assets/logo.png);
+  background-image: inherit; */
+  background-color: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+}
+.section-stats {
+  background-image: url(https://www.docplanner.com/about-us);
+  margin: 2% 14% 3% 14%;
+  display: flex;
+  flex-direction: row;
+}
+#col1 {
+  width: 50%;
+  margin: 7% 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+#col1 h3 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 2% 1%;
+  font-size: 150%;
+}
+#col1 p {
+  max-width: 415px;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.7142857143;
+
+  margin: 2% 2%;
+}
+#stats-items {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#part1 {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  margin: 10% 2% 3% 3%;
+}
+
+#part2 {
+  width: 49%;
+  margin: 2% 2%;
+  display: flex;
+  flex-direction: column;
+}
+#part1 div {
+  width: 228px;
+  height: 250px;
+  background-color: white;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 3% 4% 5% 0%;
+}
+
+#part2 div {
+  width: 228px;
+  height: 250px;
+  margin: 3% 4% 5% 0%;
+  background-color: white;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#part1 div h3 {
+  color: #00b39b;
+  text-align: center;
+  font-size: 150%;
+}
+#part1 div p {
+  text-align: center;
+  font-size: 13px;
+}
+
+#part2 div h3 {
+  color: #00b39b;
+  text-align: center;
+  font-size: 150%;
+}
+#part2 div p {
+  text-align: center;
+  font-size: 13px;
+}
+.more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 14% 3% 14%;
+}
+.more-info h3 {
+  color: #00b39b;
+  margin: 2% 1%;
+  font-size: 150%;
+}
+.more-info p {
+  margin: 2% 17%;
+  text-align: center;
+  line-height: 150%;
+}
+.countries {
+  margin: 2% 2% 3% 14%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.country {
+  margin: 1%;
+}
+.country img {
+  border-radius: 3%;
+}
+.country div {
+  margin: 2% 2%;
+  display: flex;
+  align-items: space-around;
+  padding: 2% 2%;
+}
+.country div h3 {
+  width: 49%;
+  font-size: 110%;
+}
+.country div button {
+  width: 49%;
+  background: #3d83df;
+  border-radius: 4 px;
+  border: #3d83df;
+  text-align: center;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.join-us {
+  margin: 2% 2% 3% 14%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join-us button {
+  background: #3d83df;
+  border-radius: 4 px;
+  border: #3d83df;
+  text-align: center;
+  line-height: 4em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 40%;
+  margin-top: 3%;
+}
+.join-us h3 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 150%;
+}
+/* footer style */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+
+  margin: 2% 2% 3% 14%;
+}
+.footer p {
+  text-align: center;
+  margin: 1% 1%;
+  font-size: 80%;
+}
+.footer a {
+  color: #3d83df;
+}
